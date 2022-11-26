@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/VildanovN/semantic-release#readme",
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
     "semantic-release": "^19.0.5"
   }
 }

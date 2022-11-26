@@ -25,12 +25,13 @@
     "semantic-release": "^19.0.5"
   },
   "branches": [{ "name": "master", "prerelease": true}],
-    "plugins": [
-        "@semantic-release/commit-analyzer",
-		"@semantic-release/npm",
-        "@semantic-release/release-notes-generator", 
-        "@semantic-release/changelog",
-        "@semantic-release/git",
-		"@semantic-release/github"
-    ]
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator", 
+    "@semantic-release/changelog",
+	"@semantic-release/npm",
+    "@semantic-release/git",
+	"@semantic-release/github"
+  ],
+  "private": true
 }

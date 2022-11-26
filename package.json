@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/VildanovN/semantic-release/issues"
   },
-  "homepage": "https://github.com/VildanovN/semantic-release#readme"
+  "homepage": "https://github.com/VildanovN/semantic-release#readme",
+  "devDependencies": {
+    "semantic-release": "^19.0.5"
+  }
 }

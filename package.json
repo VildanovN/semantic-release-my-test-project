@@ -26,29 +26,11 @@
   },
   "branches": [{ "name": "master", "prerelease": true}],
     "plugins": [
-        [
-            "@semantic-release/commit-analyzer", {
-                "preset": "conventionalcommits"
-            } 
-        ],
+        "@semantic-release/commit-analyzer",
 		"@semantic-release/npm",
-        [
-        "@semantic-release/release-notes-generator", {
-                "preset": "conventionalcommits"
-            }
-        ], 
-        [ 
-            "@semantic-release/changelog",
-            {
-                "changelogFile": "docs/CHANGELOG.md"
-            }
-        ],
-        [
-            "@semantic-release/git",
-            {
-                "assets": ["package.json", "CHANGELOG.md"]
-            }
-        ],
+        "@semantic-release/release-notes-generator", 
+        "@semantic-release/changelog",
+        "@semantic-release/git",
 		"@semantic-release/github"
     ]
 }

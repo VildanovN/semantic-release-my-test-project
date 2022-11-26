@@ -23,5 +23,30 @@
     "@semantic-release/release-notes-generator": "^10.0.3",
     "conventional-changelog-conventionalcommits": "^5.0.0",
     "semantic-release": "^19.0.5"
-  }
+  },
+  "branches": ["main"],
+    "plugins": [
+        [
+            "@semantic-release/commit-analyzer", {
+                "preset": "conventionalcommits"
+            } 
+        ],
+        [
+        "@semantic-release/release-notes-generator", {
+                "preset": "conventionalcommits"
+            }
+        ], 
+        [ 
+            "@semantic-release/changelog",
+            {
+                "changelogFile": "docs/CHANGELOG.md"
+            }
+        ],
+        [
+            "@semantic-release/git",
+            {
+                "assets": ["docs/CHANGELOG.md"]
+            }
+        ]
+    ]
 }

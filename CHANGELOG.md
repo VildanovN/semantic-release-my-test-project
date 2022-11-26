@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/VildanovN/semantic-release/compare/v1.4.1...v1.4.2) (2022-11-26)
+
+
+### fix
+
+* releaserc ([19e3f08](https://github.com/VildanovN/semantic-release/commit/19e3f083a28fed5337949be754669573cd9b9a27))
+
 ## [1.4.1](https://github.com/VildanovN/semantic-release/compare/v1.4.0...v1.4.1) (2022-11-26)
 
 

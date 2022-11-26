@@ -24,7 +24,7 @@
     "conventional-changelog-conventionalcommits": "^5.0.0",
     "semantic-release": "^19.0.5"
   },
-  "branches": [{ "name": "main", "prerelease": true}],
+  "branches": [{ "name": "master", "prerelease": true}],
     "plugins": [
         [
             "@semantic-release/commit-analyzer", {

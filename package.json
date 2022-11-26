@@ -23,29 +23,5 @@
     "@semantic-release/release-notes-generator": "^10.0.3",
     "conventional-changelog-conventionalcommits": "^5.0.0",
     "semantic-release": "^19.0.5"
-  },
-  "branches": [{ "name": "master", "prerelease": true}],
-  "plugins": [
-        [
-            "@semantic-release/commit-analyzer", {
-                "preset": "conventionalcommits"
-            } 
-        ],
-        [
-			"@semantic-release/release-notes-generator", {
-                "preset": "conventionalcommits"
-            }
-        ], 
-        [ 
-            "@semantic-release/changelog", {
-                "changelogTitle": "# Changelog\n\nAll notable changes to this project will be documented in this file. See\n[Conventional Commits](https://conventionalcommits.org) for commit guidelines."
-            }
-        ],
-        [
-            "@semantic-release/git", {
-                "message": "chore: Release ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-            }
-        ]
-    ],
-  "private": true
+  }
 }

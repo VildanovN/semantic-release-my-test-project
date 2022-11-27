@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/VildanovN/semantic-release/compare/v1.4.6...v1.5.0) (2022-11-27)
+
+
+### feat
+
+* data ([4254584](https://github.com/VildanovN/semantic-release/commit/4254584665dc3453d0a074499b9acee15dba6c0b))
+
 ## [1.4.6](https://github.com/VildanovN/semantic-release/compare/v1.4.5...v1.4.6) (2022-11-27)
 
 

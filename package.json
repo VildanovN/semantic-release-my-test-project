@@ -24,5 +24,6 @@
     "conventional-changelog-conventionalcommits": "^5.0.0",
     "conventional-changelog-eslint": "^3.0.9",
     "semantic-release": "^19.0.5"
-  }
+  },
+  "private": true
 }

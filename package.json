@@ -1,5 +1,6 @@
 {
   "name": "semantic-release-my-test-project",
+  "version": "1.4.3",
   "description": "semantic release task",
   "main": "index.js",
   "scripts": {

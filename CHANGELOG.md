@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/VildanovN/semantic-release/compare/v2.1.0...v2.1.1) (2022-11-28)
+
+
+### fix
+
+* data ([ddf029b](https://github.com/VildanovN/semantic-release/commit/ddf029b3fc221ca032f521b3564fdf6fda71a7e9))
+
 # [2.1.0](https://github.com/VildanovN/semantic-release/compare/v2.0.0...v2.1.0) (2022-11-28)
 
 

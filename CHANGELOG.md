@@ -1,3 +1,10 @@
+# [2.0.0](https://github.com/VildanovN/semantic-release/compare/v1.5.1...v2.0.0) (2022-11-28)
+
+
+### breaking
+
+* data ([b105244](https://github.com/VildanovN/semantic-release/commit/b105244c020777fa2885b7dbd4eccf907252f22a))
+
 ## [1.5.1](https://github.com/VildanovN/semantic-release/compare/v1.5.0...v1.5.1) (2022-11-28)
 
 
